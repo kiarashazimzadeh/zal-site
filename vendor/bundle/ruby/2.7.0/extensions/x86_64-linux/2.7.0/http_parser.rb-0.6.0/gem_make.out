@@ -1,0 +1,22 @@
+current directory: /home/kiarash/MEGA/Work/Studies/Thesis/zal/zal-site/vendor/bundle/ruby/2.7.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+/usr/bin/ruby2.7 -I /usr/lib/ruby/2.7.0 -r ./siteconf20211027-14140-s7s4hc.rb extconf.rb
+creating Makefile
+
+current directory: /home/kiarash/MEGA/Work/Studies/Thesis/zal/zal-site/vendor/bundle/ruby/2.7.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR=" clean
+make[1]: Entering directory '/home/kiarash/MEGA/Work/Studies/Thesis/zal/zal-site/vendor/bundle/ruby/2.7.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser'
+make[1]: Leaving directory '/home/kiarash/MEGA/Work/Studies/Thesis/zal/zal-site/vendor/bundle/ruby/2.7.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser'
+
+current directory: /home/kiarash/MEGA/Work/Studies/Thesis/zal/zal-site/vendor/bundle/ruby/2.7.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR="
+make[1]: Entering directory '/home/kiarash/MEGA/Work/Studies/Thesis/zal/zal-site/vendor/bundle/ruby/2.7.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser'
+compiling ruby_http_parser.c
+compiling ryah_http_parser.c
+linking shared-object ruby_http_parser.so
+make[1]: Leaving directory '/home/kiarash/MEGA/Work/Studies/Thesis/zal/zal-site/vendor/bundle/ruby/2.7.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser'
+
+current directory: /home/kiarash/MEGA/Work/Studies/Thesis/zal/zal-site/vendor/bundle/ruby/2.7.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR=" install
+make[1]: Entering directory '/home/kiarash/MEGA/Work/Studies/Thesis/zal/zal-site/vendor/bundle/ruby/2.7.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser'
+/usr/bin/install -c -m 0755 ruby_http_parser.so ./.gem.20211027-14140-1hmf069
+make[1]: Leaving directory '/home/kiarash/MEGA/Work/Studies/Thesis/zal/zal-site/vendor/bundle/ruby/2.7.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser'

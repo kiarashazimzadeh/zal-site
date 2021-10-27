@@ -1,0 +1,7 @@
+=TODO
+* add week number of the year %W and %U
+* better jcal and jdate with param
+* support afghan month names
+* update read me / talk about the binaries
+* ActiveSupport::CoreExtensions::Date
+* ActionView::Helpers::DateHelper
