@@ -1,10 +1,6 @@
 name: RTLCSS
 
 on:
-  workflow_run:
-    workflows: ["Jekyll"]
-    types:
-      - completed
   push:
     branches: 
       - gh-pages
