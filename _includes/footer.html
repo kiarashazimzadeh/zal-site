@@ -1,5 +1,13 @@
-<footer class="pt-3 pb-5 mb-4 text-center ">
-    {{ site.time | jdate: '%Y' }} {{ site.title }}
+<footer class="pt-3 pb-5 mb-4 text-center">
+    <span class="fw-bold">
+        <a href="https://github.com/kiarashazimzadeh/zal-site/blob/main/LICENSE" target="_blank"></a>{{ site.time | jdate: '%Y' }} - {{ site.title }}
+    </span>
+    <br>
+    <span style="font-size: .75rem;">
+        میزبانی‌شده در <a href="https://github.com/kiarashazimzadeh/zal-site" target="_blank"><img src="{{ 'github' | prepend: 'assets/img/logos/' | append: '.png' | absolute_url }}" alt="Github Pages" height="18px"></a>
+        <br>
+        قدرت‌گرفته از <a href="https://jekyllrb.com/" target="_blank"><img src="{{ 'jekyll' | prepend: 'assets/img/logos/' | append: '.png' | absolute_url }}" alt="Jekyll" height="18px"></a>&ensp;<a href="https://getbootstrap.com/" target="_blank"><img src="{{ 'bootstrap' | prepend: 'assets/img/logos/' | append: '.png' | absolute_url }}" alt="Bootstrap 5" height="18px"></a>&ensp;<a href="https://forestry.io/" target="_blank"><img src="{{ 'forestry' | prepend: 'assets/img/logos/' | append: '.png' | absolute_url }}" alt="Forestry.io" height="18px"></a>
+    </span>
 </footer>
 {%- comment -%}
 {% include footer/navbar.html %}
