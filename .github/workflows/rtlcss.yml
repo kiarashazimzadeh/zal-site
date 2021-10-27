@@ -18,6 +18,6 @@ jobs:
         with:
           node-version: '14'
           cache: 'npm'
-          cache-dependency-path: ./assets/package-lock.json
+          cache-dependency-path: './assets/package-lock.json'
       - run: npm install
       - run: npx rtlcss ./assets/css/style.css ./assets/css/style.css
