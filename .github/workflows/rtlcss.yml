@@ -18,6 +18,6 @@ jobs:
         with:
           node-version: '14'
       - run: npm install -g rtlcss
-      - run: rtlcss assets/css/style.css assets/css/style.css
-        working-directory: client
+      - run: rtlcss css/style.css css/style.css
+        working-directory: assets
 
