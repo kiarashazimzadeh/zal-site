@@ -1,0 +1,18 @@
+<nav class="fixed-bottom navbar navbar-dark bg-dark shadow-lg justify-content-center">
+    <img src="{{ '/assets/img/logo-bw-light.svg' | relative_path }}" class="d-none d-md-block position-absolute" style="width: 40px; right: 10px;" alt="">
+
+    <ul class="nav list-unstyled gap-3 justify-content-center">
+
+        {% for item in site.data.menus.navbar %}
+
+        <li class="nav-item">
+            <a class="nav-link vstack align-items-center p-1 lh-1 text-white {% if item.url == page.url %}disabled text-muted{% endif %}" href="{{ item.url | relative_url }}">
+                {{ item.icon }}
+                {{ item.title }}
+            </a>
+        </li>
+        
+        {% endfor %}
+
+    </ul>
+</nav>

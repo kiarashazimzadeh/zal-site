@@ -1,0 +1,37 @@
+<aside class="col-md-4 col-lg-3">
+    <div class="sticky-top" style="top: 1rem;">
+        
+        {% for item in site.data.menus.aside %}
+        
+        <!-- Define text-color based on background color -->
+        {% case item.bg-color %} 
+        {% when "dark", "primary", "secondary" %}
+        {% assign color = "white" %}
+        {% else %}
+        {% assign color = "black" %}
+        {% endcase %}
+        
+        <div class="flex-shrink-0 mb-3 p-3 rounded-3 bg-{{ item.bg-color }} {{ item.class }}">
+            <a class="d-flex flex-nowrap justify-content-between align-items-center link-unstyled  text-{{ color }}" data-bs-toggle="collapse" href="#collapse{{forloop.index}}" role="button" aria-expanded="false" aria-controls="collapse{{forloop.index}}" onclick="$(this).children('svg').toggleClass('rotated')">
+                <h5 class="m-0 fw-bold">
+                    {{ item.icon }} {{ item.title }}
+                </h5>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-caret-down-fill {% if item.expanded == true %}rotated{% endif %}" viewBox="0 0 16 16">
+                    <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+                </svg>
+            </a>
+            
+            <div class="collapse {% if item.expanded == true %}show{% endif %}" id="collapse{{forloop.index}}">
+                <div class="pt-3">
+                    {% if item.slug == 'toc' %}
+                    {% include aside/toc.html html=content class='toc' %}        
+                    {% else %}
+                    {% include {{ item.slug | prepend: 'aside/' | append: '.html' }} %}
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+        
+    </div>
+</aside>

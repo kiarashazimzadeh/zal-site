@@ -1,0 +1,48 @@
+aside:
+- title: در این نوشته
+  slug: toc
+  icon: <i class="bi bi-list-ul"></i>
+  bg-color: white
+  expanded: false
+- title: میان‌بر
+  slug: shortcuts
+  icon: <i class="bi bi-box-arrow-up-right"></i>
+  bg-color: dark
+  expanded: false
+- title: اطلاعیه‌ها
+  slug: promotions
+  icon: <i class="bi bi-bell"></i>
+  bg-color: primary
+  class: pulsing
+  expanded: true
+
+shortcuts:
+- title: ناتوانی‌های شناختی
+  slug: ci
+  description: >-
+    این بخش درباره‌ی ناتوانی‌های شناختی در سالمندی‌ست.
+  image: "assets/img/ci.jpg"
+  bg-color: primary
+- title: همراهان
+  slug: cg
+  description: >-
+    این بخش برای کسانی‌ست که از سالمندان با ناتوانی شناختی مراقبت می‌کنند.
+  image: "assets/img/happy.jpg"
+  bg-color: secondary
+
+navbar:
+- title: خانه
+  icon: <i class="bi bi-house-fill"></i>
+  url: ''
+- title: درباره
+  icon: <i class="bi bi-question-circle-fill"></i>
+  url: about
+- title: بازخورد
+  icon: <i class="bi bi-emoji-heart-eyes"></i>
+  url: feedback
+- title: تماس
+  icon: <i class="bi bi-chat-fill"></i>
+  url: contact
+- title: تست
+  icon: <i class="bi bi-question-circle-fill"></i>
+  url: test
