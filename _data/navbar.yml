@@ -1,0 +1,15 @@
+- title: خانه
+  icon: <i class="bi bi-house-fill"></i>
+  url: /
+- title: درباره
+  icon: <i class="bi bi-question-circle-fill"></i>
+  url: /about
+- title: بازخورد
+  icon: <i class="bi bi-emoji-heart-eyes"></i>
+  url: /feedback
+- title: تماس
+  icon: <i class="bi bi-chat-fill"></i>
+  url: /contact
+- title: تست
+  icon: <i class="bi bi-question-circle-fill"></i>
+  url: /test

@@ -1,0 +1,16 @@
+- title: در این نوشته
+  slug: toc
+  icon: <i class="bi bi-list-ul"></i>
+  bg-color: white
+  expanded: false
+- title: میان‌بر
+  slug: shortcuts
+  icon: <i class="bi bi-box-arrow-up-right"></i>
+  bg-color: dark
+  expanded: false
+- title: اطلاعیه‌ها
+  slug: promotions
+  icon: <i class="bi bi-bell"></i>
+  bg-color: primary
+  class: pulsing
+  expanded: true
