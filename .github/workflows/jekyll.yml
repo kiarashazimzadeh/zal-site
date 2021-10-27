@@ -11,12 +11,12 @@ jobs:
     steps:
       - name: 📂 setup
         uses: actions/checkout@v2
-      - name: 💎 setup ruby
+      - name: 💎 ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: 2.7
 
-      - name: 🔨 install dependencies & build site
+      - name: 🔨 jekylling
         uses: limjh16/jekyll-action-ts@v2
         with:
           enable_cache: true
@@ -54,11 +54,12 @@ jobs:
           # custom_opts: '--drafts --lsi'
           ### If you need to specify any Jekyll build options, enable the above input
           ### Flags accepted can be found here https://jekyllrb.com/docs/configuration/options/#build-command-options
-      - name: rtlcss
+      - name: 📥 npm
         uses: actions/setup-node@v2
         with:
           node-version: '14'
-      - run: npx rtlcss _site/assets/css/style.css _site/assets/css/style.css
+      - name: 🔨 rtlcss
+        run: npx rtlcss _site/assets/css/style.css _site/assets/css/style.css
         working-directory: ./
       - name: 🚀 deploy
         uses: peaceiris/actions-gh-pages@v3
