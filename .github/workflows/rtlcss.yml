@@ -11,6 +11,9 @@ on:
 
 jobs:
   rtlcss:
+    defaults:
+      run:
+        working-directory: ./assets
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -19,4 +22,4 @@ jobs:
           node-version: '14'
           cache: 'npm'
       - run: npm install https://github.com/MohammadYounes/rtlcss
-      - run: npx rtlcss assets/css/style.css assets/css/style.css
+      - run: npx rtlcss /css/style.css /css/style.css
