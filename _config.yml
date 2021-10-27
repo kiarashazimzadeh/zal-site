@@ -70,7 +70,7 @@ jekyll_compose:
     posts:
       layout: single
       language: fa-IR
-      toc: true
+      aside: true
     promotions:
       layout: single
       language: fa-IR
