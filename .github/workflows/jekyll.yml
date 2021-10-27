@@ -58,8 +58,8 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: '14'
-      - run: npm install -g rtlcss
-      - run: rtlcss assets/css/style.css assets/css/style.css
+          cache: 'npm'
+      - run: npx rtlcss assets/css/style.css assets/css/style.css
         working-directory: assets      
       - name: 🚀 deploy
         uses: peaceiris/actions-gh-pages@v3
