@@ -11,6 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "bootstrap": "*",
-    "rtlcss": "*"
+    "rtlcss": "^3.4.0"
   }
 }
