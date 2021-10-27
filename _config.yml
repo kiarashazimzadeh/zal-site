@@ -37,6 +37,7 @@ permalink: /:categories/:title
 # Build settings
 plugins:
   - jekyll-compose
+  - jekyll-jalali
 
 # Exclusion
 exclude:

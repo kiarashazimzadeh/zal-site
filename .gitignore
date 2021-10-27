@@ -5,3 +5,5 @@ _site/
 package.json
 package-lock.json
 Makefile
+
+!assets/package.json
