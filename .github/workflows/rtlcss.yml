@@ -13,6 +13,6 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '14'
-          github_token: ${{ secrets.jekyll }}
-      - run: npm install rtlcss
-      - run: rtlcss assets/css/style.css assets/css/style.css
+          cache: 'npm'
+      - run: npm install
+      - run: npm test
