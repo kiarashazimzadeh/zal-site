@@ -59,9 +59,9 @@ jobs:
         with:
           node-version: '14'
           cache: 'npm'
-        working-directory: './'
+          cache-dependency-path: ./package-lock.json
       - run: npx rtlcss assets/css/style.css assets/css/style.css
-        working-directory: './'
+        working-directory: ./
       - name: 🚀 deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
