@@ -28,6 +28,8 @@ url: "https://kiarashazimzadeh.github.io/zal-site" # the base hostname & protoco
 logo: 
   color: "assets/img/logo-color-light.png"
   bw: "assets/img/logo-bw-light.png"
+authors:
+  - name: "Kiarash Azimzadeh"
 
 # Site configuration
 permalink: /:categories/:title
