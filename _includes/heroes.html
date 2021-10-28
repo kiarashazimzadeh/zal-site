@@ -1,0 +1,16 @@
+{% for hero in site.heroes %}
+
+{% case hero.bg-color %} 
+{% when "dark", "primary", "secondary" %}
+{% assign color = "white" %}
+{% else %}
+{% assign color = "black" %}
+{% endcase %}
+
+<div class="heroes row px-4 py-5 my-5 bg-{{ hero.bg-color }} text-{{ color }} text-center">
+    <h1>
+        {{ hero.title }}
+    </h1>
+    {{ hero.content }}
+</div>
+{% endfor %}

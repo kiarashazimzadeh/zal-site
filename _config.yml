@@ -67,17 +67,21 @@ sass:
 # Plugins configuration
 jekyll_compose:
   default_front_matter:
-    posts:
+    # posts:
+    #   layout: single
+    #   language: fa-IR
+    #   aside: true
+    # promotions:
+    #   layout: single
+    #   language: fa-IR
+    #   color: primary
+    heroes:
       layout: single
       language: fa-IR
-      aside: true
-    promotions:
-      layout: single
-      language: fa-IR
-      color: primary
-      ext-link: false
+      bg-color: primary
 
 # Collections
 collections:
   promotions:
     output: true
+  heroes:
