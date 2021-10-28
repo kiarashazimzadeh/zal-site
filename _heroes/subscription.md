@@ -8,6 +8,11 @@ bg-color: secondary
 اگر می‌خواهید موقع افتتاح سایت اینجا باشید، شماره‌ی همراهتان را وارد کنید تا با پیامک به شما خبر بدهیم.
 
 <script src="https://www.google.com/recaptcha/api.js?hl=fa"></script>
+ <script>
+   function onSubmit(token) {
+     document.getElementById("form").submit();
+   }
+ </script>
 
 <div class="col-lg-6 mx-auto">
     <form class="row g-0 text-dark needs-validation" id="form" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScHsUmCVYJmH67qDFhVd_ia7mxoY5XbNdSgdWMmggAOu_JfNw/formResponse" novalidate>
@@ -30,8 +35,7 @@ bg-color: secondary
             </div>
         </div>
         <div class="d-sm-flex justify-content-center">
-            <input class="btn bg-white btn-lg px-4" type="submit" value="من را باخبر کن.">
-                <div class="g-recaptcha" data-sitekey="6Lc4tvwcAAAAAAGd97ne969zv2KqXbIghbB78FYX"></div>
+            <input class="g-recaptcha btn bg-white btn-lg px-4" type="submit" value="من را باخبر کن." data-sitekey="6Lc4tvwcAAAAAAGd97ne969zv2KqXbIghbB78FYX" data-callback='onSubmit' data-action='submit'>
         </div>
     </form>
     <div id="success" class="alert alert-light" style="display: none;" role="alert">
