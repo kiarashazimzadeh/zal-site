@@ -3,7 +3,6 @@ layout: single
 title: درباره‌ی زال
 date: 2021-10-28 01:08 +0330
 language: fa-IR
-aside: false
 ---
 ## پیش‌گفتار
 
