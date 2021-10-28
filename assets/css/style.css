@@ -448,7 +448,7 @@ progress {
 [hidden] {
   display: none !important; }
 
-.lead, header p {
+.lead, header p, .heroes p {
   font-size: 1.25rem;
   font-weight: 300; }
 
@@ -492,12 +492,12 @@ progress {
     .display-5 {
       font-size: 3rem; } }
 
-.display-6 {
+.display-6, .heroes h1, .heroes .h1 {
   font-size: calc(1.375rem + 1.5vw);
   font-weight: 300;
   line-height: 1.2; }
   @media (min-width: 1200px) {
-    .display-6 {
+    .display-6, .heroes h1, .heroes .h1 {
       font-size: 2.5rem; } }
 
 .list-unstyled {
@@ -2045,7 +2045,7 @@ textarea.form-control-lg {
   position: absolute;
   clip: rect(0, 0, 0, 0);
   pointer-events: none; }
-  .btn-check[disabled] + .btn, .btn-check:disabled + .btn {
+  .btn-check[disabled] + .btn, .heroes .btn-check[disabled] + a, .btn-check:disabled + .btn, .heroes .btn-check:disabled + a {
     pointer-events: none;
     filter: none;
     opacity: 0.65; }
@@ -2170,10 +2170,10 @@ textarea.form-control-lg {
   .input-group > .form-control:focus,
   .input-group > .form-select:focus {
     z-index: 3; }
-  .input-group .btn {
+  .input-group .btn, .input-group .heroes a, .heroes .input-group a {
     position: relative;
     z-index: 2; }
-    .input-group .btn:focus {
+    .input-group .btn:focus, .input-group .heroes a:focus, .heroes .input-group a:focus {
       z-index: 3; }
 
 .input-group-text {
@@ -2193,7 +2193,8 @@ textarea.form-control-lg {
 .input-group-lg > .form-control,
 .input-group-lg > .form-select,
 .input-group-lg > .input-group-text,
-.input-group-lg > .btn {
+.input-group-lg > .btn,
+.heroes .input-group-lg > a {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
   border-radius: 1.5rem; }
@@ -2201,7 +2202,8 @@ textarea.form-control-lg {
 .input-group-sm > .form-control,
 .input-group-sm > .form-select,
 .input-group-sm > .input-group-text,
-.input-group-sm > .btn {
+.input-group-sm > .btn,
+.heroes .input-group-sm > a {
   padding: 0.25rem 0.5rem;
   font-size: 0.875rem;
   border-radius: 0.375rem; }
@@ -2369,7 +2371,7 @@ textarea.form-control-lg {
   .input-group .form-select.is-invalid:focus {
     z-index: 3; }
 
-.btn {
+.btn, .heroes a {
   display: inline-block;
   font-weight: 400;
   line-height: 1.5;
@@ -2386,14 +2388,14 @@ textarea.form-control-lg {
   border-radius: 0.75rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
   @media (prefers-reduced-motion: reduce) {
-    .btn {
+    .btn, .heroes a {
       transition: none; } }
-  .btn:hover {
+  .btn:hover, .heroes a:hover {
     color: #212529; }
-  .btn-check:focus + .btn, .btn:focus {
+  .btn-check:focus + .btn, .heroes .btn-check:focus + a, .btn:focus, .heroes a:focus {
     outline: 0;
     box-shadow: 0 0 0 0.25rem rgba(74, 13, 102, 0.25); }
-  .btn:disabled, .btn.disabled, fieldset:disabled .btn {
+  .btn:disabled, .heroes a:disabled, .btn.disabled, .heroes a.disabled, fieldset:disabled .btn, fieldset:disabled .heroes a, .heroes fieldset:disabled a {
     pointer-events: none;
     opacity: 0.65; }
 
@@ -2750,12 +2752,12 @@ textarea.form-control-lg {
   .btn-link:disabled, .btn-link.disabled {
     color: #6c757d; }
 
-.btn-lg, .btn-group-lg > .btn {
+.btn-lg, .btn-group-lg > .btn, .heroes .btn-group-lg > a, .heroes a {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
   border-radius: 1.5rem; }
 
-.btn-sm, .btn-group-sm > .btn {
+.btn-sm, .btn-group-sm > .btn, .heroes .btn-group-sm > a {
   padding: 0.25rem 0.5rem;
   font-size: 0.875rem;
   border-radius: 0.375rem; }
@@ -3033,22 +3035,34 @@ textarea.form-control-lg {
   position: relative;
   display: inline-flex;
   vertical-align: middle; }
-  .btn-group > .btn,
-  .btn-group-vertical > .btn {
+  .btn-group > .btn, .heroes .btn-group > a,
+  .btn-group-vertical > .btn,
+  .heroes .btn-group-vertical > a {
     position: relative;
     flex: 1 1 auto; }
-  .btn-group > .btn-check:checked + .btn,
+  .btn-group > .btn-check:checked + .btn, .heroes .btn-group > .btn-check:checked + a,
   .btn-group > .btn-check:focus + .btn,
+  .heroes .btn-group > .btn-check:focus + a,
   .btn-group > .btn:hover,
+  .heroes .btn-group > a:hover,
   .btn-group > .btn:focus,
+  .heroes .btn-group > a:focus,
   .btn-group > .btn:active,
+  .heroes .btn-group > a:active,
   .btn-group > .btn.active,
+  .heroes .btn-group > a.active,
   .btn-group-vertical > .btn-check:checked + .btn,
+  .heroes .btn-group-vertical > .btn-check:checked + a,
   .btn-group-vertical > .btn-check:focus + .btn,
+  .heroes .btn-group-vertical > .btn-check:focus + a,
   .btn-group-vertical > .btn:hover,
+  .heroes .btn-group-vertical > a:hover,
   .btn-group-vertical > .btn:focus,
+  .heroes .btn-group-vertical > a:focus,
   .btn-group-vertical > .btn:active,
-  .btn-group-vertical > .btn.active {
+  .heroes .btn-group-vertical > a:active,
+  .btn-group-vertical > .btn.active,
+  .heroes .btn-group-vertical > a.active {
     z-index: 1; }
 
 .btn-toolbar {
@@ -3058,16 +3072,19 @@ textarea.form-control-lg {
   .btn-toolbar .input-group {
     width: auto; }
 
-.btn-group > .btn:not(:first-child),
+.btn-group > .btn:not(:first-child), .heroes .btn-group > a:not(:first-child),
 .btn-group > .btn-group:not(:first-child) {
   margin-right: -1px; }
-.btn-group > .btn:not(:last-child):not(.dropdown-toggle),
-.btn-group > .btn-group:not(:last-child) > .btn {
+.btn-group > .btn:not(:last-child):not(.dropdown-toggle), .heroes .btn-group > a:not(:last-child):not(.dropdown-toggle),
+.btn-group > .btn-group:not(:last-child) > .btn,
+.heroes .btn-group > .btn-group:not(:last-child) > a {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0; }
-.btn-group > .btn:nth-child(n + 3),
+.btn-group > .btn:nth-child(n + 3), .heroes .btn-group > a:nth-child(n + 3),
 .btn-group > :not(.btn-check) + .btn,
-.btn-group > .btn-group:not(:first-child) > .btn {
+.heroes .btn-group > :not(.btn-check) + a,
+.btn-group > .btn-group:not(:first-child) > .btn,
+.heroes .btn-group > .btn-group:not(:first-child) > a {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0; }
 
@@ -3079,11 +3096,11 @@ textarea.form-control-lg {
   .dropstart .dropdown-toggle-split::before {
     margin-left: 0; }
 
-.btn-sm + .dropdown-toggle-split, .btn-group-sm > .btn + .dropdown-toggle-split {
+.btn-sm + .dropdown-toggle-split, .btn-group-sm > .btn + .dropdown-toggle-split, .heroes .btn-group-sm > a + .dropdown-toggle-split {
   padding-left: 0.375rem;
   padding-right: 0.375rem; }
 
-.btn-lg + .dropdown-toggle-split, .btn-group-lg > .btn + .dropdown-toggle-split {
+.btn-lg + .dropdown-toggle-split, .btn-group-lg > .btn + .dropdown-toggle-split, .heroes .btn-group-lg > a + .dropdown-toggle-split, .heroes a + .dropdown-toggle-split {
   padding-left: 0.75rem;
   padding-right: 0.75rem; }
 
@@ -3091,18 +3108,20 @@ textarea.form-control-lg {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center; }
-  .btn-group-vertical > .btn,
+  .btn-group-vertical > .btn, .heroes .btn-group-vertical > a,
   .btn-group-vertical > .btn-group {
     width: 100%; }
-  .btn-group-vertical > .btn:not(:first-child),
+  .btn-group-vertical > .btn:not(:first-child), .heroes .btn-group-vertical > a:not(:first-child),
   .btn-group-vertical > .btn-group:not(:first-child) {
     margin-top: -1px; }
-  .btn-group-vertical > .btn:not(:last-child):not(.dropdown-toggle),
-  .btn-group-vertical > .btn-group:not(:last-child) > .btn {
+  .btn-group-vertical > .btn:not(:last-child):not(.dropdown-toggle), .heroes .btn-group-vertical > a:not(:last-child):not(.dropdown-toggle),
+  .btn-group-vertical > .btn-group:not(:last-child) > .btn,
+  .heroes .btn-group-vertical > .btn-group:not(:last-child) > a {
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0; }
-  .btn-group-vertical > .btn ~ .btn,
-  .btn-group-vertical > .btn-group:not(:first-child) > .btn {
+  .btn-group-vertical > .btn ~ .btn, .heroes .btn-group-vertical > a ~ .btn, .heroes .btn-group-vertical > .btn ~ a, .heroes .btn-group-vertical > a ~ a,
+  .btn-group-vertical > .btn-group:not(:first-child) > .btn,
+  .heroes .btn-group-vertical > .btn-group:not(:first-child) > a {
     border-top-right-radius: 0;
     border-top-left-radius: 0; }
 
@@ -3871,7 +3890,7 @@ textarea.form-control-lg {
   .badge:empty {
     display: none; }
 
-.btn .badge {
+.btn .badge, .heroes a .badge {
   position: relative;
   top: -1px; }
 
@@ -5010,7 +5029,7 @@ textarea.form-control-lg {
   cursor: wait;
   background-color: currentColor;
   opacity: 0.5; }
-  .placeholder.btn::before {
+  .placeholder.btn::before, .heroes a.placeholder::before {
     display: inline-block;
     content: ""; }
 
@@ -5752,7 +5771,7 @@ textarea.form-control-lg {
 .mb-3 {
   margin-bottom: 1rem !important; }
 
-.mb-4 {
+.mb-4, .heroes p {
   margin-bottom: 1.5rem !important; }
 
 .mb-5 {
@@ -5931,7 +5950,7 @@ textarea.form-control-lg {
   padding-left: 1rem !important;
   padding-right: 1rem !important; }
 
-.px-4 {
+.px-4, .heroes a {
   padding-left: 1.5rem !important;
   padding-right: 1.5rem !important; }
 
@@ -6071,7 +6090,7 @@ textarea.form-control-lg {
 .fw-normal {
   font-weight: 400 !important; }
 
-.fw-bold, article h1, article .h1, article h2, article .h2, article h3, article .h3, article h4, article .h4, article h5, article .h5, article h6, article .h6 {
+.fw-bold, .heroes h1, .heroes .h1, article h1, article .h1, article h2, article .h2, article h3, article .h3, article h4, article .h4, article h5, article .h5, article h6, article .h6 {
   font-weight: 700 !important; }
 
 .fw-bolder {
@@ -6229,7 +6248,7 @@ textarea.form-control-lg {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-black-rgb), var(--bs-bg-opacity)) !important; }
 
-.bg-white {
+.bg-white, .heroes a {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !important; }
 
@@ -9487,17 +9506,6 @@ article table {
 
 .pulsing {
   animation: pulse 2s infinite ease-in-out; }
-
-.toc {
-  margin-bottom: 0;
-  list-style: none;
-  padding-inline-start: 0; }
-  .toc a {
-    color: inherit;
-    text-decoration: none; }
-  .toc ul {
-    list-style: none;
-    padding-inline: 0.5rem; }
 
 .rotated {
   transform: rotate(-180deg); }
