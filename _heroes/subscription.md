@@ -11,7 +11,7 @@ bg-color: secondary
     <form class="row g-0 text-dark needs-validation" id="form" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScHsUmCVYJmH67qDFhVd_ia7mxoY5XbNdSgdWMmggAOu_JfNw/formResponse" novalidate>
         <div class="col-12 col-md-6 mb-3 px-3">
             <div class="form-floating">
-                <input type="name" class="form-control border-0" id="name" pattern="^[ آابپتثجچحخدذرزژسشصضطظعغفقکگلمنوهی]+$" placeholder="نام و نام خانوادگی" name="entry.748188054" required>
+                <input type="name" class="form-control border-0" id="name" pattern="^[‌ آابپتثجچحخدذرزژسشصضطظعغفقکگلمنوهی]+$" placeholder="نام و نام خانوادگی" name="entry.748188054" required>
                 <label for="name">نام و نام خانوادگی</label>
                 <div class="invalid-feedback text-white">
                     نام و نام خانوادگی را درست وارد کنید.
