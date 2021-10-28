@@ -24,7 +24,7 @@ description: >-
 locale: fa-IR
 direction: rtl
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://kiarashazimzadeh.github.io/zal-site" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://joinzal.ir" # the base hostname & protocol for your site, e.g. http://example.com
 logo: 
   color: "assets/img/logo-color-light.png"
   bw: "assets/img/logo-bw-light.png"
