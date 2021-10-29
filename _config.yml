@@ -7,7 +7,9 @@ locale: fa-IR
 direction: rtl
 baseurl: ""
 url: https://joinzal.ir
-logo: /assets/img/logo-color-light.png
+logo: 
+  light: /assets/img/logo-color-light.png
+  og: /assets/img/logo-color-light-og.png
 authors:
   - name: Kiarash Azimzadeh
   - url: https://www.linkedin.com/in/kiarashazimzadeh/
