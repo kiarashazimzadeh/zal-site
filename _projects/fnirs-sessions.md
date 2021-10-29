@@ -40,7 +40,7 @@ date: 2021-10-28T20:30:00.000+00:00
 
 ![](https://joinzal.ir/assets/img/brain-activity.jpg)
 
-شکل از مقاله‌ی [https://www.auntminnie.com/index.aspx?sec=ser&sub=def&pag=dis&ItemID=119046](https://www.auntminnie.com/index.aspx?sec=ser&sub=def&pag=dis&ItemID=119046 "https://www.auntminnie.com/index.aspx?sec=ser&sub=def&pag=dis&ItemID=119046") گرفته شده است.
+شکل از [این مقاله](https://www.auntminnie.com/index.aspx?sec=ser&sub=def&pag=dis&ItemID=119046) گرفته شده است.
 
 ## fNIRS از چه قسمت‌هایی ساخته شده است؟
 
@@ -60,7 +60,7 @@ date: 2021-10-28T20:30:00.000+00:00
 
 ![](https://joinzal.ir/assets/img/fnirs-equipment.png)
 
-عکس از (Elisenicolegray)\[[https://en.wikipedia.org/wiki/Functional_near-infrared_spectroscopy](https://en.wikipedia.org/wiki/Functional_near-infrared_spectroscopy "https://en.wikipedia.org/wiki/Functional_near-infrared_spectroscopy")\], پیکان‌ها و نوشته‌ها افزوده شده است, لیسانس (CC BY SA)\[[https://creativecommons.org/licenses/by-sa/4.0/legalcode](https://creativecommons.org/licenses/by-sa/4.0/legalcode "https://creativecommons.org/licenses/by-sa/4.0/legalcode")\]
+عکس از [Elisenicolegray](https://en.wikipedia.org/wiki/Functional_near-infrared_spectroscopy#/media/File:Blonde_fNIRS_lady.jpg), پیکان‌ها و نوشته‌ها افزوده شده است, [CC BY SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode).
 
 ## آزمون‌های شناختی هنگام تصویربرداری
 
