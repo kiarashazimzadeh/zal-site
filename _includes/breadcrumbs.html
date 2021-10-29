@@ -4,7 +4,7 @@
     <a class="link-unstyled text-muted" href="{{ site.url }}">{{ site.title }}</a>
     {% for crumb in crumbs offset: 1 %}
     {% if forloop.last %}
-    > <span class="fw-bold">{{ page.title }}</span>
+    > <span class="fw-bold">{{ page.context_title }}</span>
     {% else %}
     > <a class="link-unstyled text-muted" href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' | replace:'without-plugin/','without-plugins/' }}{% endfor %}">{{
         crumb | replace:'-',' ' | remove:'.html' | capitalize }}</a>
