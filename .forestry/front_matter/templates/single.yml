@@ -27,4 +27,5 @@ fields:
   label: language
 pages:
 - _projects/fnirs.md
+- about.md
 - index.html
