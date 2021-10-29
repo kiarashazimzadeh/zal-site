@@ -1,5 +1,5 @@
 ---
-label: Single
+label: Hero
 hide_body: false
 fields:
 - type: text
@@ -18,22 +18,11 @@ fields:
 - type: datetime
   name: date
   label: date
-- name: language
-  type: select
-  default: []
-  config:
-    required: false
-    options:
-    - fa-IR
-    - en-US
-    source:
-      type: simple
-      section: jekyll-pages
-      file: 
-      path: 
+- type: text
+  name: language
   label: language
+- type: text
+  name: bg-color
+  label: bg-color
 pages:
-- _posts/2021-10-16-test.md
-- _projects/fnirs-sessions.md
-- about.md
-- index.html
+- _heroes/subscription.md

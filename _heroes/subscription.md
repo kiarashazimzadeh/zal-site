@@ -1,9 +1,12 @@
 ---
 layout: single
-title: پیش از همه باخبر شوید!
+title: Subscription
 date: 2021-10-28 16:52 +0330
 language: fa-IR
 bg-color: secondary
+context_title: پیش از همه باخبر شوید!
+english_title: ''
+
 ---
 اگر می‌خواهید موقع افتتاح سایت اینجا باشید، شماره‌ی همراهتان را وارد کنید تا با پیامک به شما خبر بدهیم.
 
