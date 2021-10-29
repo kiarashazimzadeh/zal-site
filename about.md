@@ -1,8 +1,9 @@
 ---
 layout: single
-title: درباره‌ی زال
+title: About Zal
 date: 2021-10-27 21:38:03 +0000
 language: fa-IR
+context_title: درباره‌ی زال
 
 ---
 ## پیش‌گفتار
