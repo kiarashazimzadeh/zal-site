@@ -5,6 +5,11 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: _heroes
+  label: Heroes
+  create: documents
+  match: "**/*"
+- type: directory
   path: _projects
   label: Projects
   create: all
