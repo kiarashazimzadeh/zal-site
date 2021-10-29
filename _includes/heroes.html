@@ -1,5 +1,9 @@
 {% for hero in site.heroes %}
 
+{% if page.title == hero.title %}
+    {% continue %}
+{% endif %}
+
 {% case hero.bg-color %} 
 {% when "dark", "primary", "secondary" %}
 {% assign color = "white" %}
