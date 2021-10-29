@@ -25,4 +25,5 @@ fields:
   name: bg-color
   label: bg-color
 pages:
+- _heroes/about.md
 - _heroes/subscription.md
