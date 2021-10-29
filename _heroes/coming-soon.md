@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Coming soon
+title: about
 date: 2021-10-28 16:47 +0330
 language: fa-IR
 bg-color: primary
