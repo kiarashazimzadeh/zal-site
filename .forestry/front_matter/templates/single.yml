@@ -11,6 +11,17 @@ fields:
 - type: datetime
   name: date
   label: date
-- type: text
-  name: language
+- name: language
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - fa-IR
+    - en-US
+    source:
+      type: simple
+      section: jekyll-pages
+      file: 
+      path: 
   label: language
