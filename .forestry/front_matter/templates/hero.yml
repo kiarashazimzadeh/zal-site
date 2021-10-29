@@ -24,3 +24,5 @@ fields:
 - type: text
   name: bg-color
   label: bg-color
+pages:
+- _heroes/subscription.md
