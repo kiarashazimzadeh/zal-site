@@ -4,7 +4,6 @@ layout: single
 context_title: جلسه‌های تصویربرداری fNIRS
 title: fNIRS sessions
 date: 2021-10-28T20:30:00.000+00:00
-published: false
 
 ---
 ## fNIRS چیست؟
