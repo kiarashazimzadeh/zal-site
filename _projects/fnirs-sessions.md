@@ -8,7 +8,7 @@ date: 2021-10-28T20:30:00.000+00:00
 ---
 ## fNIRS چیست؟
 
-روش طیف‌نگاری مادون قرمز نزدیک\[1^\] یک روش تصویربرداری از مغز است. در این روش، نور نزدیک به مادون قرمز (نه خود مادون قرمز) از فرستنده‌ها به سطح سر (روی مغز) تابانده می‌شود و پس از آن بازتاب آن با گیرنده‌های نوری دریافت می‌شود؛ مثل وقتی که یک نفر سعی می‌کند با تاباندن نور به درون یک کمد، چیزهای داخل آن را ببیند.
+روش طیف‌نگاری مادون قرمز نزدیک یک روش تصویربرداری از مغز است. در این روش، نور نزدیک به مادون قرمز (نه خود مادون قرمز) از فرستنده‌ها به سطح سر (روی مغز) تابانده می‌شود و پس از آن بازتاب آن با گیرنده‌های نوری دریافت می‌شود؛ مثل وقتی که یک نفر سعی می‌کند با تاباندن نور به درون یک کمد، چیزهای داخل آن را ببیند.
 
 وقتی از این روش در حالی استفاده کنیم که بیمار/سالم در حال اجرای یک کار خاص (مثل نقاشی کشیدن، حرف زدن یا هر کار دیگر) است، تصویری که به دست می‌آید یک تصویر رنگی از فعالیت مغز در حین آن کار است؛ به عبارت دیگر، با این تصویربرداری یک نقشه‌ی رنگی از ناحیه‌های فعال مغز در حین آن کار به دست می‌آید؛ مثل نقشه‌های هواشناسی و توده‌های هوای گرم و سرد.
 
@@ -38,7 +38,9 @@ date: 2021-10-28T20:30:00.000+00:00
 
 در شکل زیر یک تصویر رنگی از مغز با دستگاه fNIRS آمده است. آن ناحیه‌هایی از مغز که قرمزتر است، فعال‌تر است.
 
-![](https://joinzal.ir/assets/img/brain-activity.jpg)\[^2\]
+![](https://joinzal.ir/assets/img/brain-activity.jpg)
+
+شکل از مقاله‌ی ([https://www.auntminnie.com/index.aspx?sec=ser&sub=def&pag=dis&ItemID=119046](https://www.auntminnie.com/index.aspx?sec=ser&sub=def&pag=dis&ItemID=119046 "https://www.auntminnie.com/index.aspx?sec=ser&sub=def&pag=dis&ItemID=119046"))\[[https://www.auntminnie.com/index.aspx?sec=ser&sub=def&pag=dis&ItemID=119046](https://www.auntminnie.com/index.aspx?sec=ser&sub=def&pag=dis&ItemID=119046 "https://www.auntminnie.com/index.aspx?sec=ser&sub=def&pag=dis&ItemID=119046")\] گرفته شده است.
 
 ## fNIRS از چه قسمت‌هایی ساخته شده است؟
 
@@ -56,7 +58,9 @@ date: 2021-10-28T20:30:00.000+00:00
 
 در عکس زیر، همه‌ی قسمت‌های دستگاه نشان داده است.
 
-![](https://joinzal.ir/assets/img/fnirs-equipment.png)\[^3\]
+![](https://joinzal.ir/assets/img/fnirs-equipment.png)
+
+عکس از (Elisenicolegray)\[[https://en.wikipedia.org/wiki/Functional_near-infrared_spectroscopy](https://en.wikipedia.org/wiki/Functional_near-infrared_spectroscopy "https://en.wikipedia.org/wiki/Functional_near-infrared_spectroscopy")\], پیکان‌ها و نوشته‌ها افزوده شده است, لیسانس (CC BY SA)\[[https://creativecommons.org/licenses/by-sa/4.0/legalcode](https://creativecommons.org/licenses/by-sa/4.0/legalcode "https://creativecommons.org/licenses/by-sa/4.0/legalcode")\]
 
 ## آزمون‌های شناختی هنگام تصویربرداری
 
