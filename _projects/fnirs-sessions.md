@@ -40,7 +40,7 @@ date: 2021-10-28T20:30:00.000+00:00
 
 ![](https://joinzal.ir/assets/img/brain-activity.jpg)
 
-شکل از مقاله‌ی ([https://www.auntminnie.com/index.aspx?sec=ser&sub=def&pag=dis&ItemID=119046](https://www.auntminnie.com/index.aspx?sec=ser&sub=def&pag=dis&ItemID=119046 "https://www.auntminnie.com/index.aspx?sec=ser&sub=def&pag=dis&ItemID=119046"))\[[https://www.auntminnie.com/index.aspx?sec=ser&sub=def&pag=dis&ItemID=119046](https://www.auntminnie.com/index.aspx?sec=ser&sub=def&pag=dis&ItemID=119046 "https://www.auntminnie.com/index.aspx?sec=ser&sub=def&pag=dis&ItemID=119046")\] گرفته شده است.
+شکل از مقاله‌ی [https://www.auntminnie.com/index.aspx?sec=ser&sub=def&pag=dis&ItemID=119046](https://www.auntminnie.com/index.aspx?sec=ser&sub=def&pag=dis&ItemID=119046 "https://www.auntminnie.com/index.aspx?sec=ser&sub=def&pag=dis&ItemID=119046") گرفته شده است.
 
 ## fNIRS از چه قسمت‌هایی ساخته شده است؟
 
