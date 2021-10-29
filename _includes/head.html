@@ -15,7 +15,7 @@
     <meta itemprop="name" content="{{ site.title }} | {{ page.context_title }}">
     <meta itemprop="image" content="{{ site.logo.og | absolute_url }}">
     <meta name="twitter:card" content="{{ site.description }}">
-    <meta name="twitter:title" content="{{ page.context_title }}">
+    <meta name="twitter:title" content="{{ site.title }} | {{ page.context_title }}">
     <meta name="twitter:image:src" content="{{ site.logo.og | absolute_url }}">
     <meta property="og:title" content="{{ site.title }} | {{ page.context_title }}">
     <meta property="og:description" content="{{ site.description }}">
@@ -30,6 +30,7 @@
     {% endif %}
     
     <link rel="apple-touch-icon" sizes="180x180" href="{{ 'assets/favicon/apple-touch-icon.png' | absolute_url }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ 'assets/favicon/favicon-32x32.png' | absolute_url }}">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ 'assets/favicon/favicon-32x32.png' | absolute_url }}">
     <link rel="icon" type="image/png" sizes="16x16" href="{{ 'assets/favicon/favicon-16x16.png' | absolute_url }}">
     <link rel="manifest" href="{{ 'assets/favicon/site.webmanifest' | absolute_url }}">
