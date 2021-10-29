@@ -25,3 +25,5 @@ fields:
       file: 
       path: 
   label: language
+pages:
+- _projects/fnirs.md
