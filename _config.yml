@@ -76,3 +76,5 @@ collections:
   promotions:
     output: true
   heroes:
+  projects:
+    output: true
