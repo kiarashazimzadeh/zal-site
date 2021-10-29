@@ -14,7 +14,7 @@
 <div class="heroes row px-4 py-5 my-5 bg-{{ hero.bg-color }} text-{{ color }} text-center">
     {% if hero.image %}
             <div class="container">
-        <img src="{{ hero.image }}" class="img-fluid my-3">
+        <img src="{{ hero.image |‌ absolute_url }}" class="img-fluid my-3">
     </div>
     {% endif %}
     <h1>
