@@ -1,6 +1,7 @@
 {
-    "name": "\u0632\u0627\u0644",
-    "short_name": "\u0632\u0627\u0644",
+    "name": "زال، آگاهی از ناتوانی‌های شناختی",
+    "short_name": "زال",
+    "description": "آگاهی از ناتوانی‌های شناختی",
     "icons": [
         {
             "src": "/assets/favicon/android-chrome-36x36.png",
@@ -49,5 +50,6 @@
         }
     ],
     "theme_color": "#4a0d66",
-    "background_color": "#4a0d66"
+    "background_color": "#4a0d66",
+    "start_url": "joinzal.ir"
 }
