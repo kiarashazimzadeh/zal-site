@@ -1,10 +1,10 @@
 ---
 layout: single
-title: پیش از همه باخبر شوید!
+title: Coming soon
 date: 2021-10-28 16:52 +0330
 language: fa-IR
 bg-color: secondary
-context_title: ''
+context_title: پیش از همه باخبر شوید!
 english_title: ''
 
 ---
