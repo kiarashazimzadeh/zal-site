@@ -25,7 +25,6 @@ defaults:
 # Build settings
 plugins:
   - jekyll-compose
-  - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-jalali
 
