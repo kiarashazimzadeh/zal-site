@@ -8,8 +8,8 @@ direction: rtl
 baseurl: ""
 url: https://joinzal.ir
 logo: 
-  light: /assets/logos/img/logo-color-light.png
-  og: /assets/logos/img/logo-color-light-og.png
+  light: /assets/img/logos/zal-color-light.png
+  og: /assets/img/logos/zal-color-light-og.png
 authors:
   - name: Kiarash Azimzadeh
   - url: https://www.linkedin.com/in/kiarashazimzadeh/
