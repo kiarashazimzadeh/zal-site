@@ -23,7 +23,7 @@ context_title: درباره‌ی زال
 ## zal.health
 
 <div class="alert alert-warning d-flex align-items-center" role="alert">
-<svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Warning:"><use xlink:href="#exclamation-triangle-fill"/></svg>
+<i class="bi bi-exclamation-triangle-fill me-3"></i>
 <div>
 دامنه‌ی زال‌دات‌هلث هنوز فعال نشده است و سایت بر روی دامنه‌ی جوین‌زال‌دات‌آی‌آر فعال است.
   </div>
