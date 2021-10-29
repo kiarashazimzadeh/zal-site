@@ -15,10 +15,18 @@ authors:
 # Site configuration
 permalink: /:categories/:title
 
+defaults:
+  -
+    scope:
+      path:            "assets"
+    values:
+      sitemap:         false
+
 # Build settings
 plugins:
   - jekyll-compose
   - jekyll-seo-tag
+  - jekyll-sitemap
   - jekyll-jalali
 
 # Exclusion
