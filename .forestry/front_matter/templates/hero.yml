@@ -15,6 +15,11 @@ fields:
     required: false
   label: English title
   description: Used for permalinks
+- name: image
+  type: file
+  config:
+    maxSize: 16
+  label: image
 - type: datetime
   name: date
   label: date
