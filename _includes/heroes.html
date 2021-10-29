@@ -12,9 +12,11 @@
 {% endcase %}
 
 <div class="heroes row px-4 py-5 my-5 bg-{{ hero.bg-color }} text-{{ color }} text-center">
-    <div class="container">
+    {% if hero.image %}
+            <div class="container">
         <img src="{{ hero.image }}" class="img-fluid my-3">
     </div>
+    {% endif %}
     <h1>
         {{ hero.context_title }}
     </h1>
