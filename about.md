@@ -1,6 +1,6 @@
 ---
 layout: single
-title: About Zal
+title: About
 date: 2021-10-27 21:38:03 +0000
 language: fa-IR
 context_title: درباره‌ی زال
