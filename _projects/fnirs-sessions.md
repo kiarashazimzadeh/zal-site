@@ -39,19 +39,6 @@ heroes:
 
 حالا وقتی گیرنده‌ها و فرستنده‌های نور را روی چند نقطه از پوست سر بچینیم، می‌توانیم یک تصویر رنگی (از آبی تا قرمز) از مغز به دست بیاوریم که فعالیت ناحیه‌های مختلف را نشان می‌دهد.
 
-در شکل زیر یک تصویر رنگی از مغز با دستگاه fNIRS آمده است. آن ناحیه‌هایی از مغز که قرمزتر است، فعال‌تر است.
-
-<div class="text-center"> 
-
-![](https://joinzal.ir/assets/img/brain-activity.jpg)
-
-<div class="text-muted">
-  
-  شکل از [این مقاله](https://www.auntminnie.com/index.aspx?sec=ser&sub=def&pag=dis&ItemID=119046) گرفته شده است. 
-  
-  </div> 
-
-</div>
 
 ## fNIRS از چه قسمت‌هایی ساخته شده است؟
 
@@ -67,13 +54,6 @@ heroes:
 
 برای آن که فرستنده‌ها و گیرنده‌ها مستقیم روی پوست سر چسبانده نشود، برای چیدن آن‌ها روی پوست سر از کلاه‌هایی استفاده می‌شود که می‌تواند گیرنده‌ها و فرستنده‌ها را سوراخ‌هایش نگه دارد. این کلاه روی سر محکم می‌شود و از سر خوردن گیرنده‌ها و فرستنده‌ها جلوگیری می‌کند.
 
-در عکس زیر، همه‌ی قسمت‌های دستگاه نشان داده است.
-
-<div class="text-center"> 
-
-![](https://joinzal.ir/assets/img/fnirs-equipment.png)
-
-<div class="text-muted">عکس از [Elisenicolegray](https://en.wikipedia.org/wiki/Functional_near-infrared_spectroscopy#/media/File:Blonde_fNIRS_lady.jpg), پیکان‌ها و نوشته‌ها افزوده شده است, [CC BY SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode).</div> </div>
 
 ## آزمون‌های شناختی هنگام تصویربرداری
 
