@@ -18,6 +18,11 @@ sections:
   match: "**/*"
   templates:
   - single
+- type: directory
+  path: _includes
+  label: Includes
+  create: all
+  match: "**/*"
 - type: jekyll-pages
   label: Pages
   create: documents
