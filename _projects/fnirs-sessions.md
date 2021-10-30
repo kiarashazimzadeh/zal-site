@@ -61,9 +61,11 @@ heroes:
 
 در عکس زیر، همه‌ی قسمت‌های دستگاه نشان داده است.
 
-![](https://joinzal.ir/assets/img/fnirs-equipment.png) {: .text-center}
+![](https://joinzal.ir/assets/img/fnirs-equipment.png)
+{: .text-center}
 
-عکس از [Elisenicolegray](https://en.wikipedia.org/wiki/Functional_near-infrared_spectroscopy#/media/File:Blonde_fNIRS_lady.jpg), پیکان‌ها و نوشته‌ها افزوده شده است, [CC BY SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode). {: .text-muted}
+عکس از [Elisenicolegray](https://en.wikipedia.org/wiki/Functional_near-infrared_spectroscopy#/media/File:Blonde_fNIRS_lady.jpg), پیکان‌ها و نوشته‌ها افزوده شده است, [CC BY SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode).
+{: .text-muted}
 
 ## آزمون‌های شناختی هنگام تصویربرداری
 
