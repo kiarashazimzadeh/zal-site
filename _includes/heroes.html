@@ -1,5 +1,0 @@
-{% assign heroes = page.heroes | split: ', ' %}
-
-{% for hero in heroes %}
-{% include {{ hero | remove: '_includes/' }} %}
-{% endfor %}
