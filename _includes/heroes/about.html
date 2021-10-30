@@ -1,0 +1,14 @@
+<div class="heroes row px-4 py-5 my-5 bg-primary text-white text-center">
+    <div class="container">
+        <img src="{{ 'happy' | prepend: 'assets/img/' | append: '.png' | absolute_url }}" class="img-fluid my-3">
+    </div>
+    <h1>
+        {{ hero.context_title }}
+    </h1>
+    <p class="lead">
+        این جا قرار است سایتی برای پروژه‌ی غیرتجاری زال باشد. اگر می‌خواهید زال را بشناسید، به صفحه‌ی زیر بروید.
+    </p>
+    <div>
+        <a href="{{ 'about' | absolute_url }}">زال چیست؟</a>
+    </div>
+</div>

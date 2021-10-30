@@ -4,7 +4,7 @@ title: About
 date: 2021-10-27T21:38:03.000+00:00
 language: fa-IR
 context_title: درباره‌ی زال
-
+heroes: subscription
 ---
 ## پیش‌گفتار
 

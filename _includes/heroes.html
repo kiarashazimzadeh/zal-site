@@ -1,27 +1,5 @@
-{% for hero in site.heroes %}
+{% assign heroes = page.heroes | split: ', ' %}
 
-{%- comment -%}
-{% if page.title == hero.title %}
-{% continue %}
-{% endif %}
-{%- endcomment -%}
-
-{% case hero.bg-color %} 
-{% when "dark", "primary", "secondary" %}
-{% assign color = "white" %}
-{% else %}
-{% assign color = "black" %}
-{% endcase %}
-
-<div class="heroes row px-4 py-5 my-5 bg-{{ hero.bg-color }} text-{{ color }} text-center">
-    {% if hero.image %}
-            <div class="container">
-        <img src="{{ hero.image |‌ absolute_url }}" class="img-fluid my-3">
-    </div>
-    {% endif %}
-    <h1>
-        {{ hero.context_title }}
-    </h1>
-    {{ hero.content }}
-</div>
+{% for hero in heroes %}
+{% include {{ hero | prepend: 'heroes/' | append: '.html' }} %}
 {% endfor %}

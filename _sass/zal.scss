@@ -60,12 +60,12 @@ header {
     @extend .display-6;
     @extend .fw-bold;
   }
-
+  
   p {
     @extend .lead;
     @extend .mb-4;
   }
-
+  
   a {
     @extend .btn;
     @extend .bg-white;
@@ -78,6 +78,11 @@ article {
   
   h1, h2, h3, h4, h5, h6 {
     @extend .fw-bold;
+  }
+  
+  a {
+    @extend .link-unstyled;
+    text-decoration: underline !important;
   }
   
   ol:lang(fa) {
@@ -136,21 +141,22 @@ article {
 }
 
 // .toc {
-//   margin-bottom: 0;
-//   list-style: none;
-//   padding-inline-start: 0;
+  //   margin-bottom: 0;
+  //   list-style: none;
+  //   padding-inline-start: 0;
   
-//   a {
-//     color: inherit;
-//     text-decoration: none;
-//   }
-  
-//   ul {
-//     list-style: none;
-//     padding-inline: $spacer * .5;
-//   }
-// }
-
-.rotated {
-  transform: rotate(180deg);
-}
+  //   a {
+    //     color: inherit;
+    //     text-decoration: none;
+    //   }
+    
+    //   ul {
+      //     list-style: none;
+      //     padding-inline: $spacer * .5;
+      //   }
+      // }
+      
+      .rotated {
+        transform: rotate(180deg);
+      }
+      

@@ -77,4 +77,5 @@ collections:
     output: true
   projects:
     output: true
+    permalink: /پروژه‌ها/:name
   heroes:
