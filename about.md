@@ -5,7 +5,7 @@ date: 2021-10-27T21:38:03.000+00:00
 language: fa-IR
 context_title: درباره‌ی زال
 heroes:
-- subscription
+- _includes/heroes/subscription.html
 testheroes:
 - _includes/heroes/about.html
 - _includes/heroes/subscription.html
