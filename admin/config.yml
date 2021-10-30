@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: zal-site/kiarashazimzadeh.github.io
+  repo: kiarashazimzadeh.github.io/zal-site
   branch: main
   site_domain: quirky-keller-5410bf.netlify.app
 
