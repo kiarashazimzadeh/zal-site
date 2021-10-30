@@ -1,5 +1,5 @@
 {% assign heroes = page.heroes | split: ', ' %}
 
 {% for hero in heroes %}
-{% include {{ hero | remove: '[' | remove: ']' | remove: '"' | prepend: 'heroes/' | append: '.html' }} %}
+{% include {{ hero | remove: '_includes/' }} %}
 {% endfor %}
