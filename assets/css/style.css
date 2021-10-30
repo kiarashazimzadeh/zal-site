@@ -9489,7 +9489,7 @@ textarea.form-control-lg {
 .list-unstyled {
   padding-inline-start: 0; }
 
-.link-unstyled, .link-unstyled:hover, .link-unstyled:active, .link-unstyled:focus {
+.link-unstyled, article a, .link-unstyled:hover, article a:hover, .link-unstyled:active, article a:active, .link-unstyled:focus, article a:focus {
   text-decoration: none !important;
   color: inherit; }
 
@@ -9499,6 +9499,8 @@ textarea.form-control-lg {
 .bg-muted {
   background-color: #adb5bd !important; }
 
+article a {
+  text-decoration: underline !important; }
 article ol:lang(fa) {
   list-style: arabic-indic; }
 article table {
