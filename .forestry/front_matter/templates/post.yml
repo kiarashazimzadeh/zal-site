@@ -2,6 +2,16 @@
 label: Post
 hide_body: false
 fields:
+- name: layout
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: pages
+      section: layouts
+  label: Layout
 - name: title
   type: text
   config:
