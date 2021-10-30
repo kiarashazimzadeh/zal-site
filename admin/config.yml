@@ -1,5 +1,5 @@
 backend:
-  name: Zal CMS
+  name: github
   repo: zal-site/kiarashazimzadeh.github.io
   branch: main
   site_domain: quirky-keller-5410bf.netlify.app
