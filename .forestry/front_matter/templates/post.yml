@@ -1,4 +1,48 @@
 ---
 label: Post
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: English title
+  description: This title is used for permalinks.
+- name: context_title
+  type: text
+  config:
+    required: false
+  label: Title
+  description: This title is shown in the page.
+- name: language
+  type: text
+  config:
+    required: false
+  label: Language
+  description: 'Use HTML ISO language code: <a href="https://www.w3schools.com/tags/ref_language_codes.asp"
+    title="https://www.w3schools.com/tags/ref_language_codes.asp" target="_blank">https://www.w3schools.com/tags/ref_language_codes.asp</a>'
+- name: date
+  type: datetime
+  label: Date
+  description: ''
+  config:
+    required: false
+    date_format: MMM. Do, YYYY
+    time_format: 
+    display_utc: false
+- name: sitemap
+  type: boolean
+  label: Indexed in sitemap
+  description: If checked, page is added to sitemap.xml.
+  default: true
+- name: heroes
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: pages
+      section: heroes
+  label: Heroes
+  description: Heroes are shown at the bottom of the page if the layout supports it.
