@@ -45,7 +45,13 @@ heroes:
 
 ![](https://joinzal.ir/assets/img/brain-activity.jpg)
 
-<div class="text-muted">شکل از [این مقاله](https://www.auntminnie.com/index.aspx?sec=ser&sub=def&pag=dis&ItemID=119046) گرفته شده است. </div> </div>
+<div class="text-muted">
+  
+  شکل از [این مقاله](https://www.auntminnie.com/index.aspx?sec=ser&sub=def&pag=dis&ItemID=119046) گرفته شده است. 
+  
+  </div> 
+
+</div>
 
 ## fNIRS از چه قسمت‌هایی ساخته شده است؟
 
