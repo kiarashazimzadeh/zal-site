@@ -56,3 +56,5 @@ fields:
       section: heroes
   label: Heroes
   description: Heroes are shown at the bottom of the page if the layout supports it.
+pages:
+- about.html
