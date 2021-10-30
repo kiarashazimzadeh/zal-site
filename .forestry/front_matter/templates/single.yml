@@ -32,6 +32,11 @@ fields:
       file: 
       path: 
   label: language
+- name: heroes
+  type: tag_list
+  default: []
+  label: heroes
+  description: Separate heroes with ', ' (comma + 1 space).
 pages:
 - _posts/2021-10-16-test.md
 - _projects/fnirs-sessions.md
