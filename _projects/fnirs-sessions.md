@@ -42,11 +42,11 @@ heroes:
 در شکل زیر یک تصویر رنگی از مغز با دستگاه fNIRS آمده است. آن ناحیه‌هایی از مغز که قرمزتر است، فعال‌تر است.
 
 <p class="text-center">
-
 ![](https://joinzal.ir/assets/img/brain-activity.jpg)
 
-<div class="text-muted>شکل از [این مقاله](https://www.auntminnie.com/index.aspx?sec=ser&sub=def&pag=dis&ItemID=119046) گرفته شده است.</div>
-
+<div class="text-muted">
+            شکل از [این مقاله](https://www.auntminnie.com/index.aspx?sec=ser&sub=def&pag=dis&ItemID=119046) گرفته شده است.
+</div>
 </p>
 
 ## fNIRS از چه قسمت‌هایی ساخته شده است؟
@@ -69,7 +69,7 @@ heroes:
 
 ![](https://joinzal.ir/assets/img/fnirs-equipment.png)
 
-<div class="text-muted>عکس از [Elisenicolegray](https://en.wikipedia.org/wiki/Functional_near-infrared_spectroscopy#/media/File:Blonde_fNIRS_lady.jpg), پیکان‌ها و نوشته‌ها افزوده شده است, [CC BY SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode).</div>
+<div class="text-muted">عکس از [Elisenicolegray](https://en.wikipedia.org/wiki/Functional_near-infrared_spectroscopy#/media/File:Blonde_fNIRS_lady.jpg), پیکان‌ها و نوشته‌ها افزوده شده است, [CC BY SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode).</div>
 
 </p>
 
