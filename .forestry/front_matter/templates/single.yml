@@ -33,10 +33,16 @@ fields:
       path: 
   label: language
 - name: heroes
-  type: tag_list
-  default: []
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: pages
+      section: heroes
   label: heroes
-  description: Separate heroes with ', ' (comma + 1 space).
+  description: Select the heroes you want to be showed up in this page.
 pages:
 - _posts/2021-10-16-test.md
 - _projects/fnirs-sessions.md

@@ -5,12 +5,10 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
-  path: _heroes
+  path: _includes/heroes
   label: Heroes
   create: documents
   match: "**/*"
-  templates:
-  - hero
 - type: directory
   path: _projects
   label: Projects
