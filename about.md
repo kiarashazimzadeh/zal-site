@@ -6,10 +6,6 @@ language: fa-IR
 context_title: درباره‌ی زال
 heroes:
 - _includes/heroes/subscription.html
-testheroes:
-- _includes/heroes/about.html
-- _includes/heroes/subscription.html
-- _includes/heroes/fnirs-sessions.html
 
 ---
 ## پیش‌گفتار
