@@ -37,14 +37,17 @@ heroes:
 
 با اندازه گرفتن نور بازتاب شده، می‌شود خون‌رسانی مغز را حساب کرد. هر چقدر خون‌رسانی یک ناحیه بیش‌تر باشد، نشان‌دهنده‌ی این است که آن ناحیه فعال‌تر بوده است. در نقشه‌ی مغزی ناحیه‌های فعال قرمز است. هر چقدر خون‌رسانی کم‌تر باشد، آن ناحیه کم‌تر فعالیت کرده است و در نقشه‌ی مغز آبی‌رنگ است.
 
-حالا وقتی گیرنده‌ها و فرستنده‌های نور را روی چند نقطه از پوست سر بچینیم، می‌توانیم یک تصویر رنگی (از آبی تا قرمز) از مغز به دست بیاوریم که فعالیت ناحیه‌های مختلف را نشان می‌دهد.
-{: .text-muted}
+حالا وقتی گیرنده‌ها و فرستنده‌های نور را روی چند نقطه از پوست سر بچینیم، می‌توانیم یک تصویر رنگی (از آبی تا قرمز) از مغز به دست بیاوریم که فعالیت ناحیه‌های مختلف را نشان می‌دهد. {: .text-muted}
 
 در شکل زیر یک تصویر رنگی از مغز با دستگاه fNIRS آمده است. آن ناحیه‌هایی از مغز که قرمزتر است، فعال‌تر است.
 
+<p class="text-center">
+
 ![](https://joinzal.ir/assets/img/brain-activity.jpg)
 
-شکل از [این مقاله](https://www.auntminnie.com/index.aspx?sec=ser&sub=def&pag=dis&ItemID=119046) گرفته شده است.
+<div class="text-muted>شکل از [این مقاله](https://www.auntminnie.com/index.aspx?sec=ser&sub=def&pag=dis&ItemID=119046) گرفته شده است.</div>
+
+</p>
 
 ## fNIRS از چه قسمت‌هایی ساخته شده است؟
 
@@ -62,9 +65,13 @@ heroes:
 
 در عکس زیر، همه‌ی قسمت‌های دستگاه نشان داده است.
 
+<p class="text-center">
+
 ![](https://joinzal.ir/assets/img/fnirs-equipment.png)
 
-عکس از [Elisenicolegray](https://en.wikipedia.org/wiki/Functional_near-infrared_spectroscopy#/media/File:Blonde_fNIRS_lady.jpg), پیکان‌ها و نوشته‌ها افزوده شده است, [CC BY SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode).
+<div class="text-muted>عکس از [Elisenicolegray](https://en.wikipedia.org/wiki/Functional_near-infrared_spectroscopy#/media/File:Blonde_fNIRS_lady.jpg), پیکان‌ها و نوشته‌ها افزوده شده است, [CC BY SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode).</div>
+
+</p>
 
 ## آزمون‌های شناختی هنگام تصویربرداری
 
